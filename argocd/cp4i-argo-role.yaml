@@ -6,6 +6,7 @@ rules:
   - verbs:
       - '*'
     apiGroups:
+      - operator.autoscaling.openshift.io 
       - apiconnect.ibm.com
       - eventstreams.ibm.com
       - integration.ibm.com
