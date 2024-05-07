@@ -12,14 +12,14 @@ spec:
       content-server:
         resources:
           limits:
-            memory: 512Mi
+            memory: 128Mi
           requests:
             cpu: 50m
             memory: 50Mi
       control-ui:
         resources:
           limits:
-            memory: 512Mi
+            memory: 128Mi
           requests:
             cpu: 50m
             memory: 125Mi
